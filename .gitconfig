@@ -1,0 +1,7 @@
+[user]
+      name = rt6
+      email = rt6@users.noreply.github.com
+[color]
+      ui = true
+[core]
+      editor = vim
