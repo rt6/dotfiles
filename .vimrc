@@ -17,9 +17,9 @@ Plugin 'luochen1990/rainbow'
 Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'nathanaelkane/vim-indent-guides'
-""Plugin 'pangloss/vim-javascript'
+"Plugin 'pangloss/vim-javascript'
 Plugin 'mattn/emmet-vim'
-"Plugin 'townk/vim-autoclose'
+Plugin 'townk/vim-autoclose'
 call vundle#end()            " required
 "filetype plugin indent on    " required
 " To ignore plugin indent changes, insted use:
@@ -50,6 +50,9 @@ let g:syntastic_check_on_wq = 0
 " Rainbox Parentheses
 "0 if you want to enable it later via :RainbowToggle
 let g:rainbow_active = 1 
+
+" vim-javascript
+"let g:javascript_plugin_jsdoc = 1
 
 " Put your non-Plugin stuff after this line
 set number
