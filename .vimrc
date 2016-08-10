@@ -21,6 +21,7 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'mattn/emmet-vim'
 Plugin 'townk/vim-autoclose'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'saltstack/salt-vim'
 call vundle#end()            " required
 "filetype plugin indent on    " required
 " To ignore plugin indent changes, insted use:
