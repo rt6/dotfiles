@@ -23,6 +23,7 @@ Plugin 'townk/vim-autoclose'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'saltstack/salt-vim'
 Plugin 'maksimr/vim-jsbeautify'
+""Plugin 'taglist.vim' 
 call vundle#end()            " required
 "filetype plugin indent on    " required
 " To ignore plugin indent changes, insted use:
