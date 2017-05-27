@@ -17,7 +17,8 @@ Plugin 'luochen1990/rainbow'
 Plugin 'bling/vim-airline'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'nathanaelkane/vim-indent-guides'
-"Plugin 'pangloss/vim-javascript'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 Plugin 'mattn/emmet-vim'
 Plugin 'townk/vim-autoclose'
 Plugin 'scrooloose/nerdcommenter'
@@ -103,5 +104,6 @@ autocmd FileType jsx vnoremap <buffer> <c-f> :call RangeJsxBeautify()<cr>
 autocmd FileType html vnoremap <buffer> <c-f> :call RangeHtmlBeautify()<cr>
 autocmd FileType css vnoremap <buffer> <c-f> :call RangeCSSBeautify()<cr>
 
-
-
+" JSX syntax highlight in all .js files
+" change to 1 if only JSX highlight for .jsx files
+let g:jsx_ext_required = 0
