@@ -107,3 +107,6 @@ autocmd FileType css vnoremap <buffer> <c-f> :call RangeCSSBeautify()<cr>
 " JSX syntax highlight in all .js files
 " change to 1 if only JSX highlight for .jsx files
 let g:jsx_ext_required = 0
+
+"remap escape to jk
+:imap jk <Esc>
