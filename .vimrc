@@ -82,7 +82,8 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=237
 au VimEnter * IndentGuidesEnable
 
 au VimEnter * RainbowToggle
-au VimEnter * NERDTree
+"au VimEnter * NERDTree
+map <C-n> :NERDTreeToggle<CR>
 
 
 " configs for maksimr/vim-jsbeautify
@@ -108,5 +109,6 @@ autocmd FileType css vnoremap <buffer> <c-f> :call RangeCSSBeautify()<cr>
 " change to 1 if only JSX highlight for .jsx files
 let g:jsx_ext_required = 0
 
-"remap escape to jk
+"remap escape to jk for insert and visual mode
 :imap jk <Esc>
+:xnoremap jk <Esc>
