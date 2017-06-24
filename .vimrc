@@ -112,3 +112,5 @@ let g:jsx_ext_required = 0
 "remap escape to jk for insert and visual mode
 :imap jk <Esc>
 :xnoremap jk <Esc>
+" eliminate delay on ESC
+set timeoutlen=200 ttimeoutlen=0
