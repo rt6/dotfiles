@@ -63,7 +63,10 @@ let g:rainbow_active = 1
 set number
 filetype plugin indent on
 set cursorline
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+" for web/mobile/html/js
+set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
+" for everything else
+"set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 "autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 :iabbrev </ </<C-X><C-O>
 
