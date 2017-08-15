@@ -87,7 +87,9 @@ au VimEnter * IndentGuidesEnable
 au VimEnter * RainbowToggle
 "au VimEnter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
-
+map  <C-l> :tabn<CR>
+map  <C-h> :tabp<CR>
+map  <C-n> :tabnew<CR>
 
 " configs for maksimr/vim-jsbeautify
 map <c-f> :call JsBeautify()<cr>
